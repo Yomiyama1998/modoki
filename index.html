@@ -12,14 +12,23 @@ text-align: center;
 }
 </style>
 <body>
-    <h1 class="center"><center>薬学徒擬きの備忘録( やくがくともどき ）</center>
+    <h1 class="center">薬学徒擬きの備忘録( やくがくともどき ）
     </h1>
-    <p class="center">  このサイトは、薬学徒擬きが自分の勉強した事を備忘録代わりにまとめるために書き記したホームページです。
+    <p class="center">  このサイトは、薬学徒擬きが自分の勉強した事を備忘録代わり、及びhtmlの勉強のために書き記したホームページです。
     </p>
     <h2 class="center">ホームページ名の由来</h2>
     <p class="center">いつも冴えない彼女の育てかた関連で相手をしてくれている方のアカウント名、昔ネットにあった某番組の備忘録から</p>
     <h2 class="center"><a href="">Julia</a></h2>
+    <h2 class="center"><a href="">R</a></h2>
     <h2 class="center"><a href="reference.html">参考にしているサイト</a></h2>
     <h2 class="center"><a href="https://yomiyama1998.github.io/syohibuta/">趣味関連のHP</a></h2>
+    <script>
+        time();
+    function time(){
+        var now = new Date();
+        document.getElementById("time").innerHTML=now.toLocaleTimeString();
+    }
+    setInterval('time()',1000);
+    </script>
 </body>
 </html>
